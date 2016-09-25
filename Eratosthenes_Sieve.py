@@ -1,7 +1,7 @@
 import math
 
 def isPrime(n):
-    if n == 1:
+    if n == 0 or n == 1:
         return False
     elif n < 4:
         return True
